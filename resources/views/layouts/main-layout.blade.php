@@ -12,8 +12,10 @@
     <div id="app">
         @include('components.header')
 
-        @yield('main')
-
+        <main>
+            @yield('main')
+        </main>
+        
         @include('components.footer')
     </div>
 </body>

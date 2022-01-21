@@ -7,13 +7,14 @@
                 <h2>CURRENT SERIES</h2>
             </div>
 
-
             <div class="cards-container">
 
                 <div class="comic">
 
                     <div class="img-container">
-                        <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
+                        <a href="{{route('comic')}}">
+                          <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
+                        </a>
                     </div>
             
                     <div class="text">titolo x</div>

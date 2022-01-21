@@ -57,6 +57,11 @@ header nav li a:hover {
   background-size: cover;
 }
 
+.container {
+  width: 70%;
+  margin: auto;
+}
+
 #footer-nav {
   background-image: url("https://fbcoverstreet.com/content/qE4KNMcZ3J1vQFjExu2sKSuetUDNzNOlOu7ENI1QxSuYSFn6bGAU2jpXTZa2JOjo.jpg");
   background-position: center;
