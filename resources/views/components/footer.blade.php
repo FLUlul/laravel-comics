@@ -87,11 +87,11 @@
     
             <div class="logo-socials">
     
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <img src="#" alt="">
+                <img src="#" alt="">
+                <img src="#" alt="">
+                <img src="#" alt="">
+                <img src="#" alt="">
         
             </div>
     

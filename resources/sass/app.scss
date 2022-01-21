@@ -153,4 +153,69 @@ header{
         }
       }
     }
-  }
+}
+#comics{
+    background-color: #1c1c1c;
+    color: white;
+
+    .container{
+        width: 70%;
+        margin: auto;
+        position: relative;
+
+        .title{
+          position: absolute;
+          top: -25px;
+          left: 0;
+
+          h2{
+            background-color: #0282f9;
+            padding: 12px;
+          }
+        }
+
+        .cards-container{
+          display: flex;
+          flex-wrap: wrap;
+          padding: 50px 0;
+
+            .comic{
+                width: calc(100% / 6 - 5px);
+        
+                .img-container{
+                    max-height: 200px;
+                    overflow: hidden;
+                    margin: 10px 10px;
+                }
+        
+                .text{
+                    padding-right: 30px;
+                }
+            }
+        }
+    }
+}
+#shop-main{
+    background-color: #0282f9;
+    color: white;
+    padding: 50px 0;
+
+    .cards{
+      width: 70%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+
+        .card{
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            width: 100%;
+
+            img{
+            height: 70px;
+            max-width: 70px;
+            }
+        }
+    }
+}
