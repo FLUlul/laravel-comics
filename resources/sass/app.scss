@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    border-top: solid 5px #0282f9;
+}
+header{
+    width: 70%;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo{
+      width: 80px;
+
+      img{
+        max-width: 100%;
+      }
+    }
+
+    nav{
+    
+      li{
+        display: inline-block;
+
+        a{
+          margin: 0 20px;
+          text-decoration: none;
+          color: #1c1c1c;
+          padding-bottom: 60px;
+
+          &.active{
+            color: #0282f9;
+            border-bottom: solid 5px #0282f9;
+          }
+
+          &:hover{
+            border-bottom: solid 5px #0282f978;
+          }
+        }
+      }
+    }
+}
+.jumbo{
+    background-image: url("https://images.everyeye.it/img-notizie/teen-titans-go-film-simpatico-team-up-dc-trailer-italiano-v3-317751.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#footer-nav{
+    background-image: url("https://fbcoverstreet.com/content/qE4KNMcZ3J1vQFjExu2sKSuetUDNzNOlOu7ENI1QxSuYSFn6bGAU2jpXTZa2JOjo.jpg");
+    background-position: center;
+    background-size: cover;
+
+    .container{
+      display: flex;
+      width: 70%;
+      margin: auto;
+      overflow: hidden;
+      padding: 50px 0;
+
+      .nav-container{
+        display: flex;
+        width: 50%;
+
+        h3{
+          color: white;
+          margin-right:20px;
+        }
+
+        ul{
+          margin-right:20px;
+          margin-top: 10px;
+          li{
+            color: #838383;
+            list-style: none;
+            margin: 5px 0;
+          }
+        }
+
+
+        #shop{
+          margin-top: 20px;
+        }
+      }
+      
+      .image {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 50%;
+
+        img{
+            max-width: 100%;
+            position: absolute; 
+        }
+      }
+    } 
+}
+#footer-socials{
+    background-color: #303030;
+    padding: 40px 0;
+
+    .container{
+      width: 70%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .btn{
+        a{
+          padding: 15px;
+          border: solid #0282f9 3px;
+          text-decoration: none;
+          color: white;
+
+          &:hover{
+            background: #0282f9;
+            border: solid white 3px;
+          }
+        }
+      }
+
+      .socials{
+        display: flex;
+        align-items: center;
+        
+        
+        h3{
+          color: #0282f9;
+          margin-right: 10px;
+        }
+
+        .logo-socials{
+          display: flex;
+
+          img{
+            padding: 0 10px;
+          }
+
+        }
+      }
+    }
+  }
