@@ -13,7 +13,7 @@
 
                     <div class="img-container">
                         <a href="{{route('comic')}}">
-                          <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
+                          <img src="{{asset('storage/assets/comic.jpg')}}" alt="details.series">
                         </a>
                     </div>
             
