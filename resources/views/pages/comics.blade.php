@@ -8,118 +8,22 @@
             </div>
 
             <div class="cards-container">
+                @foreach ($comics as $i => $comic)
 
-                <div class="comic">
+                    <div class="comic">
 
-                    <div class="img-container">
-                        <a href="{{route('comic')}}">
-                          <img src="{{asset('storage/assets/comic.jpg')}}" alt="details.series">
-                        </a>
+                        <div class="img-container">
+                            <a href="{{route('comic')}}">
+                                <img src="{{asset('storage/assets/comic2.jpg')}}" alt="details.series">
+                            </a>
+                        </div>
+                
+                        <div class="text">{{$comic['name']}}</div>
+                
                     </div>
-            
-                    <div class="text">titolo x</div>
-            
-                </div>
-                <div class="comic">
-
-                    <div class="img-container">
-                        <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
-                    </div>
-            
-                    <div class="text">titolo x</div>
-            
-                </div>
-                <div class="comic">
-
-                    <div class="img-container">
-                        <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
-                    </div>
-            
-                    <div class="text">titolo x</div>
-            
-                </div>
-                <div class="comic">
-
-                    <div class="img-container">
-                        <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
-                    </div>
-            
-                    <div class="text">titolo x</div>
-            
-                </div>
-                <div class="comic">
-
-                    <div class="img-container">
-                        <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
-                    </div>
-            
-                    <div class="text">titolo x</div>
-            
-                </div>
-                <div class="comic">
-
-                    <div class="img-container">
-                        <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
-                    </div>
-            
-                    <div class="text">titolo x</div>
-            
-                </div>
-                <div class="comic">
-
-                    <div class="img-container">
-                        <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
-                    </div>
-            
-                    <div class="text">titolo x</div>
-            
-                </div>
-                <div class="comic">
-
-                    <div class="img-container">
-                        <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
-                    </div>
-            
-                    <div class="text">titolo x</div>
-            
-                </div>
-                <div class="comic">
-
-                    <div class="img-container">
-                        <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
-                    </div>
-            
-                    <div class="text">titolo x</div>
-            
-                </div>
-                <div class="comic">
-
-                    <div class="img-container">
-                        <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
-                    </div>
-            
-                    <div class="text">titolo x</div>
-            
-                </div>
-                <div class="comic">
-
-                    <div class="img-container">
-                        <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
-                    </div>
-            
-                    <div class="text">titolo x</div>
-            
-                </div>
-                <div class="comic">
-
-                    <div class="img-container">
-                        <img src="https://m.media-amazon.com/images/I/61b4DxRQbCL.jpg" alt="details.series">
-                    </div>
-            
-                    <div class="text">titolo x</div>
-            
-                </div>
-
+    
+                @endforeach
+                
             </div>
 
         </div>

@@ -87,11 +87,11 @@
     
             <div class="logo-socials">
     
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
-                <img src="#" alt="">
+                <img src="/storage/assets/footer-facebook.png" alt="fb">
+                <img src="/storage/assets/footer-twitter.png" alt="tw">
+                <img src="/storage/assets/footer-youtube.png" alt="yt">
+                <img src="/storage/assets/footer-pinterest.png" alt="pn">
+                <img src="/storage/assets/footer-periscope.png" alt="pe">
         
             </div>
     
